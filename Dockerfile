@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV SOCAT_VERSION=1.7.3.2-r3
+ENV SOCAT_VERSION=1.7.3.2-r4
 
 RUN apk add --no-cache socat=$SOCAT_VERSION
 
