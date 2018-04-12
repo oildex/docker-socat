@@ -4,9 +4,7 @@ ENV SOCAT_VERSION=1.7.3.2-r3
 
 RUN apk add --no-cache socat=$SOCAT_VERSION
 
-ENTRYPOINT ["/usr/bin/socat"]
-
-CMD ["-h"]
+CMD ["/usr/bin/socat", "-h"]
 
 LABEL org.label-schema.schema-version="1.0" \
       org.label-schema.name="socat" \
