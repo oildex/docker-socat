@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 ENV SOCAT_VERSION=1.7.3.2-r4
 
